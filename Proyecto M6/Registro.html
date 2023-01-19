@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/Proyecto M6/assets/css/indice.css"/>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="formul-registro">
+        <form action="">
+            <label for="fname">Nombre de usuario:</label><br>
+            <input type="text" id="cRegistro" name="fname"><br>
+
+            <label for="lname">Contraseña:</label><br>
+            <input type="password" id="cPassword" name="lname"><br>
+            <p>Requisitos:</p>
+            <p id="pswrdCaracter">Entre 8 y 15 caracteres</p>
+            <p id="pswrdMinuscula">1 Minuscula</p>
+            <p id="pswrdMayuscula">1 Mayuscula</p>
+            <p id="pswrdNumero">1 Digito</p>
+            <p id="pswrdEspecial">1 Digito especial</p>
+
+            
+            <label for="lname">Correo Electronico:</label><br>
+            <input type="text" id="cEmail" name="lname"><br><br>
+            <input onclick="conditionsOk()" type="submit" value="Registrar Usuario">
+        </form>
+    </div>
+    
+    <script defer src="assets/js/js.js"></script>
+</body>
+<footer>
+    
+
+</footer>
+</html>

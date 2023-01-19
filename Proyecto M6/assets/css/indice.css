@@ -1,0 +1,46 @@
+.allbody {
+    
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 570px;
+
+}
+
+body {
+    background-image: -moz-repeating-linear-gradient();
+    background-repeat:no-repeat;
+    background-position-x:center;
+    background-position-y:center;
+    background-color: #181A1B;
+    background-image: url("../images/portalJM.png");
+    color: white;
+
+}
+
+header{
+    background-color: #810c0c;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    text-decoration-style: double;
+}
+
+.btnInicio ,a {
+    border: 2px solid #d2bdff;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    color: black;
+    font-size: larger;
+    text-decoration: none;
+}
+  
+
+footer{
+    background-color: #810c0c;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-top: 102px;
+
+}
+
